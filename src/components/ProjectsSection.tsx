@@ -5,22 +5,22 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Project One",
-    description: "A modern web application built with React and TypeScript",
-    tags: ["React", "TypeScript", "Tailwind"],
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+    title: "ShadowUnity",
+    description: "A German Minecraft server founded in April 2018, growing to over 2000 registered users",
+    tags: ["Minecraft", "Server Administration", "Community Management"],
+    image: "https://images.unsplash.com/photo-1627856013091-fed6e4e30025"
   },
   {
-    title: "Project Two",
-    description: "Mobile-first design with responsive layouts",
-    tags: ["Design", "Mobile", "UI/UX"],
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+    title: "Emergency Response: Crestwood County",
+    description: "A Roblox game in development since September 2023, focusing on emergency response scenarios",
+    tags: ["Roblox", "Game Development", "In Development"],
+    image: "https://images.unsplash.com/photo-1563089145-599997674d42"
   },
   {
-    title: "Project Three",
-    description: "Full-stack application with modern architecture",
-    tags: ["Full-stack", "Node.js", "API"],
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1"
+    title: "DMH Network",
+    description: "A collaborative Minecraft network project founded with partners from HMT network",
+    tags: ["Minecraft", "Networking", "Collaboration"],
+    image: "https://images.unsplash.com/photo-1552346154-21d32810aba3"
   }
 ];
 
