@@ -76,7 +76,7 @@ export const ProjectsSection = () => {
 							</div>
 							<div className="flex flex-wrap gap-2 mb-4">
 								{project.tags.map((tag) => (
-									<span key={tag} className="px-3 py-1 bg-gray-800 text-white rounded-full text-sm">
+									<span key={tag} className="px-3 py-1 bg-gray-900 text-white rounded-full text-sm">
 										{tag}
 									</span>
 								))}
