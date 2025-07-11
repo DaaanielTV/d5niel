@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Github, Twitter, Discord } from "lucide-react";
+import { Mail, Github, Twitter, Headset } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Navigation = () => {
@@ -28,7 +28,7 @@ export const Navigation = () => {
           </Button>
           <Button variant="ghost" size="icon" asChild>
             <a href="https://discord.gg/aKTcK7H4FY" target="_blank" rel="noopener noreferrer">
-              <Discord className="h-5 w-5" />
+              <Headset className="h-5 w-5" />
             </a>
           </Button>
         </div>
