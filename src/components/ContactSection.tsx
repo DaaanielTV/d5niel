@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Github, Twitter, Discord } from "lucide-react";
+import { Mail, Github, Twitter, Headset } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -45,7 +45,7 @@ export const ContactSection = () => {
                    target="_blank" 
                    rel="noopener noreferrer"
                    className="flex items-center p-3 hover:bg-primary/10 rounded-lg transition-colors">
-                  <Discord className="h-6 w-6 mr-3" />
+                  <Headset className="h-6 w-6 mr-3" />
                   <div>
                     <p className="font-semibold">Discord Server</p>
                     <p className="text-sm text-gray-600">Join our community</p>
