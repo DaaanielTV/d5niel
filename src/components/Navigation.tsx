@@ -16,12 +16,12 @@ export const Navigation = () => {
 
         <div className="flex items-center space-x-2">
           <Button variant="ghost" size="icon" asChild>
-            <a href="https://x.com/daaaaanieltv" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/daaaaanieltv" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
               <Twitter className="h-5 w-5" />
             </a>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <a href="https://discord.gg/hMPy4B6WKW" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/hMPy4B6WKW" target="_blank" rel="noopener noreferrer" aria-label="Discord">
               <Headset className="h-5 w-5" />
             </a>
           </Button>
