@@ -7,13 +7,13 @@ const projects = [
 		title: "ShadowUnity",
 		description: "A German Minecraft server founded in April 2018, growing to over 2000 registered users",
 		tags: ["Minecraft", "Server Administration", "Community Management"],
-		image: "https://images.unsplash.com/photo-1627856013091-fed6e4e30025?w=400&h=250&fit=crop"
+		image: "https://images.unsplash.com/photo-1627856013091-fed6e4e30025?w=400&h=250&fit=crop&fm=webp"
 	},
 	{
 		title: "Emergency Response: Crestwood County",
 		description: "A Roblox game in development since September 2023, focusing on emergency response scenarios",
 		tags: ["Roblox", "Game Development", "In Development"],
-		image: "https://images.unsplash.com/photo-1563089145-599997674d42?w=400&h=250&fit=crop"
+		image: "https://images.unsplash.com/photo-1563089145-599997674d42?w=400&h=250&fit=crop&fm=webp"
 	}
 ];
 
@@ -52,7 +52,7 @@ export const ProjectsSection = () => {
 								<p className="text-gray-600 mb-4">{project.description}</p>
 								<div className="flex flex-wrap gap-2 mb-4">
 									{project.tags.map((tag) => (
-										<span key={tag} className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
+										<span key={tag} className="px-3 py-1 bg-black text-white rounded-full text-sm">
 											{tag}
 										</span>
 									))}
