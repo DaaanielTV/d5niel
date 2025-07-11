@@ -1,7 +1,3 @@
-# Welcome to your Lovable project
-
-## How can I edit this code?
-
 There are several ways of editing your application.
 
 **Use your preferred IDE**
@@ -14,7 +10,7 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone github.com/DaaanielTV/d5niel-digital-canvas
+git clone github.com/DaaanielTV/d5niel
 
 # Step 2: Navigate to the project directory.
 cd d5niel-digital-canvas
